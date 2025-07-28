@@ -19,17 +19,24 @@ This project include an image upload feature using Cloudinary and a clean, respo
 ---
 
 ## Tech Stack 🛠 
-#Frontend:
+Frontend:
 React.js
+
 React Router
+
 Tailwind CSS
+
 html2canvas and jspdf (for export feature)
 
 #Backend:
 Express.js
+
 MongoDB (Atlas)
+
 Mongoose
+
 Cloudinary (for image upload and storage)
+
 multer (for handling file uploads)
 
 📁 Folder Structure
