@@ -19,7 +19,8 @@ This project include an image upload feature using Cloudinary and a clean, respo
 ---
 
 ## Tech Stack 🛠 
-Frontend:
+---
+#Frontend:
 React.js
 
 React Router
