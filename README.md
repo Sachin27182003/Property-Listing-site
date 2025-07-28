@@ -37,9 +37,8 @@ Cloudinary (for image upload and storage)
 multer (for handling file uploads)
 
 📁 Folder Structure
-pgsql
-Copy
-Edit
+
+```text
 project-root/
 ├── backend/
 │   ├── controllers/
@@ -62,6 +61,8 @@ project-root/
 │   └── package.json
 ├── README.md
 └── package.json
+```
+
 ⚙️ Setup Instructions
 1. Clone the Repository
 bash
