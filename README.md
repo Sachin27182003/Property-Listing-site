@@ -1,5 +1,6 @@
 # Property-Listing-site 🏢🏨
-A web based web-based application that analyzes user reflections to detect emotional tone using a mock emotion analysis API. Built with React (TypeScript) and FastAPI for the backend.
+A  full-stack property listing platform where users can view, add, and manage real estate properties, including images and key details like location, price, area, and contacts info.
+This project include an image upload feature using Cloudinary and a clean, responsive UI built with React and Tailwind CSS.
 ---
 
 🚀 Features
