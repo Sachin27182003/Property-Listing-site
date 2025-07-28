@@ -1,5 +1,5 @@
 # Property-Listing-site 🏢🏨
-A web-based application that analyzes user reflections to detect emotional tone using a mock emotion analysis API. Built with React (TypeScript) and FastAPI for the backend.
+A web based web-based application that analyzes user reflections to detect emotional tone using a mock emotion analysis API. Built with React (TypeScript) and FastAPI for the backend.
 ---
 
 🚀 Features
