@@ -10,6 +10,7 @@ const propertySchema = new mongoose.Schema({
   bedrooms: Number,
   bathrooms: Number,
   area: Number,
+  contact: String,
   createdAt: {
     type: Date,
     default: Date.now,

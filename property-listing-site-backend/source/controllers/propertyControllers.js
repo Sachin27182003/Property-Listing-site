@@ -14,7 +14,7 @@ const getAllProperties = async (req, res) => {
 
 const addNewProperty = async (req, res) => {
 
-  console.log("hello");
+  console.log("Request body:", req.body);
   try {
 
      if (req.file) {

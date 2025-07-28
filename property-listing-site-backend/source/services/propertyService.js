@@ -17,6 +17,7 @@ const addProperty = async (propertyData, imageDetails) => {
     bedrooms: propertyData.bedrooms,
     bathrooms: propertyData.bathrooms,
     area: propertyData.area,
+    contact: propertyData.contact,
   })
 
   if(!property){

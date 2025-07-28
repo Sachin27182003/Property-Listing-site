@@ -14,7 +14,7 @@ export default function App() {
         </Link>
         <Link
           to="/add"
-          className="bg-blue-500 text-black text-2xl font-bold px-4 py-2  border-2 border-black"
+          className="bg-blue-200 rounded text-black text-xl font-bold px-4 py-2  border-2 border-black"
         >
           + Add Property
         </Link>

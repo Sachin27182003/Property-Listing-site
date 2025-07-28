@@ -27,23 +27,22 @@ const PropertyProvider = ({ children }) => {
 
   // Add new property
   const addProperty = async (property) => {
-    try {
-      const response = await fetch(API_BASE_URL, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(property),
-      });
+  console.log("Adding property:", property);
+  try {
+    const response = await fetch(API_BASE_URL, {
+      method: 'POST',
+      body: property, // This is FormData already
+    });
 
-      if (!response.ok) throw new Error('Failed to add property');
+    if (!response.ok) throw new Error('Failed to add property');
 
-      const savedProperty = await response.json();
-      setProperties((prev) => [...prev, savedProperty]);
-    } catch (error) {
-      console.error('Error adding property:', error);
-    }
-  };
+    const savedProperty = await response.json();
+    setProperties((prev) => [...prev, savedProperty]);
+  } catch (error) {
+    console.error('Error adding property:', error);
+  }
+};
+
 
   return (
     <PropertyContext.Provider value={{ properties, addProperty, loading }}>

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function FilterBar({ filters, setFilters }) {
   return (
-    <div className="flex flex-col md:flex-row gap-4 p-4 bg-gray-100 rounded-md shadow-md">
+    <div className="flex flex-col md:flex-row gap-4 p-4 bg-gray-100 rounded-lg shadow-md">
       <select
         className="p-2 border rounded"
         value={filters.location}
@@ -24,7 +24,7 @@ export default function FilterBar({ filters, setFilters }) {
         <option value="Apartment">Apartment</option>
         <option value="Villa">Villa</option>
         <option value="Plot">Plot</option>
-        <option value="House">Plot</option>
+        <option value="House">House</option>
         {/* Add more types if needed */}
       </select>
 
@@ -34,9 +34,9 @@ export default function FilterBar({ filters, setFilters }) {
         onChange={e => setFilters(prev => ({ ...prev, price: e.target.value }))}
       >
         <option value="">Any Price</option>
-        <option value="500000">Up to ₹5 Lakh</option>
-        <option value="1000000">Up to ₹10 Lakh</option>
-        <option value="2000000">Up to ₹20 Lakh</option>
+        <option value="2500000">Up to ₹25 Lakh</option>
+        <option value="5000000">Up to ₹50 Lakh</option>
+        <option value="10000000">Up to ₹1 crore</option>
         {/* Add more ranges as needed */}
       </select>
     </div>
