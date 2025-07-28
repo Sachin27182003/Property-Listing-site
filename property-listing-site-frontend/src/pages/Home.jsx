@@ -19,7 +19,7 @@ export default function Home() {
     <div>
       <FilterBar filters={filters} setFilters={setFilters} />
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
-        {filtered.map(property => <PropertyCard key={property.id} property={property} />)}
+        {filtered.map(property => <PropertyCard key={property._id} property={property} />)}
       </div>
     </div>
   );

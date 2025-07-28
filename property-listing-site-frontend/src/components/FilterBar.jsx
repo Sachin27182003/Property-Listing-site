@@ -24,6 +24,7 @@ export default function FilterBar({ filters, setFilters }) {
         <option value="Apartment">Apartment</option>
         <option value="Villa">Villa</option>
         <option value="Plot">Plot</option>
+        <option value="House">Plot</option>
         {/* Add more types if needed */}
       </select>
 
