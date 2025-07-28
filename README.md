@@ -3,7 +3,7 @@ A  full-stack property listing platform where users can view, add, and manage re
 This project include an image upload feature using Cloudinary and a clean, responsive UI built with React and Tailwind CSS.
 ---
 
-##🚀 Features
+#🚀 Features
 🏡 Add new property listings with image upload
 
 🔍 Filter and search listings by location, type, etc.
