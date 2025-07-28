@@ -1,6 +1,7 @@
 # Property-Listing-site
 🏠 Property Listing Web Application
 A full-stack property listing platform where users can view, add, and manage real estate properties, including images and key details like location, price, area, and contact info. The project includes an image upload feature using Cloudinary and a clean, responsive UI built with React and Tailwind CSS.
+A modern platform to showcase, explore, and manage real estate listings effortlessly.
 ---
 
 🚀 Features
