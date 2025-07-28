@@ -1,5 +1,5 @@
-# Property-Listing-site
-A modern, full-stack web platform for discovering and managing real estate listings. Users can easily add, view, and explore properties with rich details like location, price, and amenities. Integrated image uploads via Cloudinary and a clean, responsive UI powered by React and Tailwind CSS ensure a smooth user experience across devices. The backend is built with Express and MongoDB, providing robust and scalable data management.
+# Property-Listing-site 🏢🏨
+A web-based application that analyzes user reflections to detect emotional tone using a mock emotion analysis API. Built with React (TypeScript) and FastAPI for the backend.
 ---
 
 🚀 Features
