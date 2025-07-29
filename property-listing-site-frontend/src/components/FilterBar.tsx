@@ -1,8 +1,15 @@
 import React from 'react';
+import { FilterState } from '../types';
 
-export default function FilterBar({ filters, setFilters }) {
+interface FilterBarProps {
+  filters: FilterState;
+  setFilters: React.Dispatch<React.SetStateAction<FilterState>>;
+}
+
+export default function FilterBar({ filters, setFilters }: FilterBarProps) {
   return (
     <div className="flex flex-col md:flex-row gap-4 p-4 bg-gray-100 rounded-lg shadow-md">
+      {/* location */}
       <select
         className="p-2 border rounded"
         value={filters.location}
@@ -12,9 +19,9 @@ export default function FilterBar({ filters, setFilters }) {
         <option value="Delhi">Delhi</option>
         <option value="Mumbai">Mumbai</option>
         <option value="Bangalore">Bangalore</option>
-        {/* Add more locations if needed */}
       </select>
 
+      {/* type */}
       <select
         className="p-2 border rounded"
         value={filters.type}
@@ -25,7 +32,6 @@ export default function FilterBar({ filters, setFilters }) {
         <option value="Villa">Villa</option>
         <option value="Plot">Plot</option>
         <option value="House">House</option>
-        {/* Add more types if needed */}
       </select>
 
       <select
@@ -37,7 +43,6 @@ export default function FilterBar({ filters, setFilters }) {
         <option value="2500000">Up to ₹25 Lakh</option>
         <option value="5000000">Up to ₹50 Lakh</option>
         <option value="10000000">Up to ₹1 crore</option>
-        {/* Add more ranges as needed */}
       </select>
     </div>
   );

@@ -1,16 +1,16 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
-import Home from "./pages/Home.jsx";
-import AddProperty from "./pages/AddProperty.jsx";
-import PropertyDetails from "./pages/PropertyDetails.jsx";
+import Home from "./pages/Home..js";
+import AddProperty from "./pages/AddProperty..js";
+import PropertyDetails from "./pages/PropertyDetails..js";
 import "./App.css";
 
 export default function App() {
   return (
     <div className="p-4 ">
       <nav className="flex justify-between items-center mb-6">
-        <Link to="/" className="text-xl font-bold text-black">
-          🏠 PropertyApp
+        <Link to="/" className="text-3xl font-bold text-black">
+          🏠 Mini Property Listing Dashboard
         </Link>
         <Link
           to="/add"

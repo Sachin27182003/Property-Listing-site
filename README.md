@@ -16,19 +16,24 @@ This project include an image upload feature using Cloudinary and a clean, respo
 
 🌐 Responsive and mobile-friendly UI
 
+<<<<<<< HEAD
 ---
 
 ## Tech Stack 🛠 
 #Frontend 
 
 React.js
+=======
+>>>>>>> 80f2be0 (Frontend updated)
 
-React Router
+---
 
-Tailwind CSS
+## 🛠️ Tech Stack
 
-html2canvas and jspdf (for export feature)
+- **Frontend**: React (with TypeScript) + React Router + Tailwind CSS + html2canvas + jsPDF (for export/download feature)
+- **Backend**: Express + MongoDB(Atlas) + Mongoose + Cloudinary (for image upload and storage) + multer (for handling file uploads)
 
+<<<<<<< HEAD
 #Backend 
 
 Express.js
@@ -40,27 +45,70 @@ Mongoose
 Cloudinary (for image upload and storage)
 
 multer (for handling file uploads)
+=======
+---
+## 🚀 Getting Started
+>>>>>>> 80f2be0 (Frontend updated)
 
 📁 Folder Structure
 
 ```text
 project-root/
 ├── backend/
-│   ├── controllers/
-│   ├── routes/
-│   ├── models/
-│   ├── middleware/
-│   ├── utils/
-│   ├── .env
-│   └── server.js
+│       ├──node_modules
+│       ├── source/ 
+│       │      ├── config/
+│       │      │      ├── cloudinaryConfig.js
+│       │      │      ├── dbConfig.js
+│       │      │      └── serverConfig.js
+│       │      ├── controllers/
+│       │      │      └── propertyController.js
+│       │      ├── Middleware/
+│       │      │      └── multerMiddleware.js
+│       │      ├── repositories/
+│       │      │      └── propertyRepositories.js
+│       │      ├── Routes/
+│       │      │      └── router.js
+│       │      ├── schema/
+│       │      │      └── propertySchema.js
+│       │      ├── services/
+│       │      │      └── propertyService.js
+│       │      ├── utils/
+│       │      │      ├── appError.js
+│       │      │      ├── BadRequestError.js
+│       │      │      ├── internalServerError.js
+│       │      │      ├── notFoundError.js
+│       │      │      └── unAuthorisedError.js
+│       │      └── index.js
+│       ├── upload/
+│       ├── .env
+│       ├── .gitignore
+│       ├── package-lock.json
+│       ├── package.json 
 ├── frontend/
+│   ├── node_modules
+│   ├── public
+│   │     ├── property.png
+│   │     └── vite.svg
 │   ├── src/
-│   │   ├── components/
-│   │   ├── context/
-│   │   ├── pages/
 │   │   ├── assets/
+│   │   │      └── react.svg
+│   │   ├── components/
+│   │   │      ├── FilterBar.jsx
+│   │   │      └── PropertyCard.jsx
+│   │   ├── context/
+│   │   │      ├── PropertyContext.js
+│   │   │      ├── PropertyProvider.js
+│   │   │      └── useProperties.js
+│   │   ├── pages/
+│   │   │      ├── AddProperty.jsx
+│   │   │      ├── Home.jsx
+│   │   │      └── PropertyDetails.jsx
+│   │   ├── App.css
 │   │   ├── App.jsx
+│   │   ├── index.css
 │   │   └── main.jsx
+<<<<<<< HEAD
 │   ├── public/
 │   ├── tailwind.config.js
 │   └── package.json
@@ -69,6 +117,19 @@ project-root/
 ```
 
 ⚙️ Setup Instructions
+=======
+│   ├── .gitignore
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   └── vite.config.js
+└── README.md
+```
+
+--- 
+# Installation ⚙️
+>>>>>>> 80f2be0 (Frontend updated)
 1. Clone the Repository
 bash
 Copy

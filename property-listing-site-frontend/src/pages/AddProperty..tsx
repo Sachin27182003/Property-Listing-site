@@ -256,7 +256,7 @@ export default function AddProperty() {
 
       <div className="hidden md:flex items-center justify-center">
         <img
-          src="/property-removebg-preview.png"
+          src="/property.png"
           alt="Decoration"
           className="h-180 w-auto object-contain mix-blend-multiply"
         />
