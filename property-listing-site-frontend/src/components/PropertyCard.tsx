@@ -10,7 +10,7 @@ export default function PropertyCard({ property }: PropertyCardProps) {
   console.log("property", property);
 
   return (
-    <div className="border bg-white !bg-white rounded-lg shadow p-4">
+    <div className="border !bg-white rounded-lg shadow p-4">
       <img
         src={property.image}
         alt={property.title}
