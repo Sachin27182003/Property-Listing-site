@@ -171,6 +171,7 @@ Get a single property
 
 Ensure you are sending multipart/form-data for image uploads.
 
+```text
 🧪 Sample JSON (property)
 {
   "title": "3BHK Luxury Apartment",
@@ -185,6 +186,7 @@ Ensure you are sending multipart/form-data for image uploads.
   "contact": "3265987463",
   "image": "image_file"
 }
+```
 
 ---
 
